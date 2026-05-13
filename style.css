@@ -100,4 +100,11 @@ button{
     justify-content: center;
     margin-top: 50px;
     gap: 60px;
+    align-items: center;
+}
+.BIG{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
 }
