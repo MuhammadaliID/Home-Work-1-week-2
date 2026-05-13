@@ -4,3 +4,86 @@
     list-style: none;
     box-sizing: border-box;
 }
+.network{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.a1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.b1,
+.b2{
+    width: 260px;
+    padding: 20px;
+    border-bottom: 1px solid color-mix(in srgb, gray 30%, white 70%);
+    box-shadow: 0px 0px 5px;
+    height: 350px;
+}
+
+.b3{
+    width: 400px;
+}
+
+h1{
+    font-size: 50px;
+    color: color-mix(in srgb, black 80%, blue 20%);
+}
+
+h3{
+    color: color-mix(in srgb, black 70%, gray 30%);
+}
+
+h5{
+    color: color-mix(in srgb, blue 70%, cyan 30%);
+    font-size: 20px;
+}
+
+.c1,
+.c2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+
+span{
+    color: color-mix(in srgb, blue 60%, gray 40%);
+}
+
+.d1{
+    color: color-mix(in srgb, red 70%, orange 30%);
+    font-size: 20px;
+}
+
+p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: color-mix(in srgb, gray 80%, black 20%);
+}
+
+a{
+    display: inline-block;
+    margin-top: 40px;
+    color: color-mix(in srgb, black 70%, blue 30%);
+    font-weight: bold;
+}
+
+button{
+    margin-top: 30px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: color-mix(in srgb, deepskyblue 70%, blue 30%);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
