@@ -108,3 +108,54 @@ button{
     gap: 40px;
     margin-top: 50px;
 }
+.Footer{
+    background-color: rgba(43, 43, 57, 1);
+}
+
+.aa{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    margin-top: 80px;
+}
+
+.bb,
+.cc,
+.dd,
+.ee,
+.ff{
+    color: white;
+}
+
+h2{
+    margin-bottom: 30px;
+    color: color-mix(in srgb, white 90%, pink 10%);
+}
+
+p{
+    margin: 20px 0;
+    color: color-mix(in srgb, gray 40%, white 60%);
+}
+
+.gg{
+    display: flex;
+    margin-top: 30px;
+}
+
+input{
+    padding: 15px;
+    width: 220px;
+    border: 2px solid color-mix(in srgb, white 70%, gray 30%);
+    border-radius: 12px 0 0 12px;
+    background-color: transparent;
+    color: white;
+}
+
+button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    background-color: color-mix(in srgb, white 90%, beige 10%);
+    cursor: pointer;
+    color: black;
+}
