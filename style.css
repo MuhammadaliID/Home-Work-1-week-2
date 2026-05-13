@@ -95,3 +95,9 @@ button{
     flex-wrap: wrap;
     gap: 60px;
 }
+.members{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+}
